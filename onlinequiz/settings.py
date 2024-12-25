@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
@@ -79,14 +80,24 @@ WSGI_APPLICATION = 'onlinequiz.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
+''''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'defaultdb',  # Replace with your database name
+        'USER': 'avnadmin',        # Replace with your username
+        'PASSWORD': 'AVNS_Sd8U23ORHThsaFjULRn',     # Replace with your password
+        'HOST': 'ks3quiz-ks3quiz.d.aivencloud.com',         # Replace with your hostname
+        'PORT': '22322',             # Replace with your port (default is 3306)
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
