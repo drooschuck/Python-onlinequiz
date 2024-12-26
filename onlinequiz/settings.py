@@ -59,6 +59,7 @@ MIDDLEWARE = [
 CSRF_COOKIE_SECURE=False
 ROOT_URLCONF = 'onlinequiz.urls'
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -88,14 +89,20 @@ DATABASES = {
     }
 }
 '''
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'defaultdb',  # Replace with your database name
-        'USER': 'avnadmin',        # Replace with your username
-        'PASSWORD': 'AVNS_Sd8U23ORHThsaFjULRn',     # Replace with your password
-        'HOST': 'ks3quiz-ks3quiz.d.aivencloud.com',         # Replace with your hostname
-        'PORT': '22322',             # Replace with your port (default is 3306)
+        'NAME': os.getenv('DB_NAME'), # Replace with your database name
+        'USER' : os.getenv('USER_NAME'),       # Replace with your username
+        'PASSWORD' : os.getenv('PWD') ,    # Replace with your password
+        'HOST': os.getenv('HOST'),         # Replace with your hostname
+        'PORT': os.getenv('PORT'),             # Replace with your port (default is 3306)
+        
     }
 }
 
