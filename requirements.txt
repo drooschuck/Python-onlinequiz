@@ -11,3 +11,4 @@ python-dotenv==1.0.1
 pytz==2020.1
 sqlparse==0.2.4
 whitenoise==6.8.2
+django-cors-headers 
