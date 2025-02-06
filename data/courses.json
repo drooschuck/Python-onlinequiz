@@ -1,0 +1,38 @@
+[
+    {
+        "course": 1,
+        "course_name": "Mathematics",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "course": 2,
+        "course_name": "Science",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "course": 3,
+        "course_name": "History",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "course": 4,
+        "course_name": "Geography",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "course": 6,
+        "course_name": "Computer Science",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "course": 7,
+        "course_name": "General Knowledge",
+        "question_number": 10,
+        "total_marks": 100
+    }
+]

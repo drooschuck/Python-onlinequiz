@@ -1,0 +1,104 @@
+{
+    "questions":[
+    {
+        "question": "What is the value of the expression 3 + 4 * 2?",
+        "option1": "A) 11",
+        "option2": "B) 14",
+        "option3": "C) 10",
+        "option4": "D) 8",
+        "answer": "A) 11",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the square root of 144?",
+        "option1": "A) 10",
+        "option2": "B) 12",
+        "option3": "C) 14",
+        "option4": "D) 16",
+        "answer": "B) 12",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is 7 multiplied by 8?",
+        "option1": "A) 54",
+        "option2": "B) 56",
+        "option3": "C) 58",
+        "option4": "D) 60",
+        "answer": "B) 56",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the value of 5 factorial (5!)?",
+        "option1": "A) 20",
+        "option2": "B) 60",
+        "option3": "C) 120",
+        "option4": "D) 100",
+        "answer": "C) 120",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the formula for the area of a circle?",
+        "option1": "A) πr²", 
+        "option2": "B) 2πr",
+        "option3": "C) πd",
+        "option4": "D) r²",  
+        "answer": "A) πr²", 
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the next prime number after 7?",
+        "option1": "A) 9",
+        "option2": "B) 11",
+        "option3": "C) 13",
+        "option4": "D) 15",
+        "answer": "B) 11",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the sum of angles in a triangle?",
+        "option1": "A) 90 degrees",
+        "option2": "B) 180 degrees",
+        "option3": "C) 360 degrees",
+        "option4": "D) 270 degrees",
+        "answer": "B) 180 degrees",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the value of 2^5?",
+        "option1": "A) 16",
+        "option2": "B) 32",
+        "option3": "C) 64",
+        "option4": "D) 128",
+        "answer": "B) 32",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the perimeter of a rectangle with length 5 and width 3?",
+        "option1": "A) 15",
+        "option2": "B) 16",
+        "option3": "C) 18",
+        "option4": "D) 20",
+        "answer": "B) 16",
+        "marks": 10,
+        "course": 1
+    },
+    {
+        "question": "What is the value of the expression 5 + 3 * 2?",
+        "option1": "A) 11",
+        "option2": "B) 16",
+        "option3": "C) 10",
+        "option4": "D) 8",
+        "answer": "A) 11",
+        "marks": 10,
+        "course": 1
+    }
+    ]
+}

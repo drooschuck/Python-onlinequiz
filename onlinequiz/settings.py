@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'import_export',
     'quiz',
     'teacher',
     'student',
@@ -81,30 +82,30 @@ WSGI_APPLICATION = 'onlinequiz.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-''''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-'''
+
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('DB_NAME'), # Replace with your database name
-        'USER' : os.getenv('USER_NAME'),       # Replace with your username
-        'PASSWORD' : os.getenv('PWD') ,    # Replace with your password
-        'HOST': os.getenv('HOST'),         # Replace with your hostname
-        'PORT': os.getenv('PORT'),             # Replace with your port (default is 3306)
+#DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.mysql',
+   #     'NAME': os.getenv('DB_NAME'), # Replace with your database name
+    #    'USER' : os.getenv('USER_NAME'),       # Replace with your username
+     #   'PASSWORD' : os.getenv('PWD') ,    # Replace with your password
+      #  'HOST': os.getenv('HOST'),         # Replace with your hostname
+       # 'PORT': os.getenv('PORT'),             # Replace with your port (default is 3306)
         
-    }
-}
+    #}
+#}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators

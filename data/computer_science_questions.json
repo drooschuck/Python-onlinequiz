@@ -1,0 +1,34 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary function of the CPU?",
+            "option1": "A) To store data",
+            "option2": "B) To process data",
+            "option3": "C) To display graphics",
+            "option4": "D) To connect peripherals",
+            "answer": "B) To process data",
+            "marks": 1,
+            "course": 67
+        },
+        {
+            "question": "Which of the following is a programming language?",
+            "option1": "A) HTML",
+            "option2": "B) CSS",
+            "option3": "C) Python",
+            "option4": "D) SQL",
+            "answer": "C) Python",
+            "marks": 1,
+            "course": 67
+        },
+        {
+            "question": "What does HTML stand for?",
+            "option1": "A) Hyper Text Markup Language",
+            "option2": "B) High Text Markup Language",
+            "option3": "C) Hyperlink and Text Markup Language",
+            "option4": "D) Hyper Textual Markup Language",
+            "answer": "A) Hyper Text Markup Language",
+            "marks": 1,
+            "course": 67
+        }
+    ]
+}

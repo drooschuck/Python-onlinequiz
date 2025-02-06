@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following is NOT a type of permanent storage device?",
+            "option1": "A) Hard Disk Drive (HDD)",
+            "option2": "B) Solid State Drive (SSD)",
+            "option3": "C) USB Flash Drive",
+            "option4": "D) RAM",
+            "answer": "D) RAM",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "What type of permanent storage device uses magnetic disks to store data?",
+            "option1": "A) SSD",
+            "option2": "B) CD-ROM",
+            "option3": "C) HDD",
+            "option4": "D) Flash Drive",
+            "answer": "C) HDD",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "Identify the hardware component that is responsible for processing data.",
+            "option1": "A) RAM",
+            "option2": "B) Microsoft Word",
+            "option3": "C) Antivirus Software",
+            "option4": "D) USB Drive",
+            "answer": "A) RAM",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "Which of the following is an example of application software?",
+            "option1": "A) Linux",
+            "option2": "B) Adobe Photoshop",
+            "option3": "C) Motherboard",
+            "option4": "D) Printer",
+            "answer": "B) Adobe Photoshop",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "What type of software is used to protect a computer from viruses and malware?",
+            "option1": "A) Web Browser",
+            "option2": "B) Antivirus Software",
+            "option3": "C) Graphics Card",
+            "option4": "D) Monitor",
+            "answer": "B) Antivirus Software",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "Which of the following is NOT considered hardware?",
+            "option1": "A) Hard Disk Drive",
+            "option2": "B) RAM",
+            "option3": "C) Microsoft Excel",
+            "option4": "D) Graphics Card",
+            "answer": "C) Microsoft Excel",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "What is the main function of the motherboard in a computer?",
+            "option1": "A) To store data",
+            "option2": "B) To connect all hardware components",
+            "option3": "C) To run applications",
+            "option4": "D) To display graphics",
+            "answer": "B) To connect all hardware components",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "Which of the following is an example of system software?",
+            "option1": "A) Google Chrome",
+            "option2": "B) Microsoft PowerPoint",
+            "option3": "C) macOS",
+            "option4": "D) VLC Media Player",
+            "answer": "C) macOS",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "What type of hardware is used to input data into a computer?",
+            "option1": "A) Monitor",
+            "option2": "B) Mouse",
+            "option3": "C) Printer",
+            "option4": "D) Hard Drive",
+            "answer": "B) Mouse",
+            "marks": 1,
+            "course": 79
+        },
+        {
+            "question": "Which of the following is a type of storage hardware?",
+            "option1": "A) Microsoft Access",
+            "option2": "B) SSD (Solid State Drive)",
+            "option3": "C) Java",
+            "option4": "D) Web Server",
+            "answer": "B) SSD (Solid State Drive)",
+            "marks": 1,
+            "course": 79
+        }
+    ]
+}
