@@ -16,10 +16,14 @@ class Command(BaseCommand):
         try:
             with open(json_file, 'r') as file:
                 data = json.load(file)
-                questions_data = data['questions']
+                print(f"Loaded JSON data: {data}")  # Debugging output for loaded data
+                questions_data = data  # Directly use the loaded list of questions
+
                 for question_data in questions_data:
                     # Get the course instance
-                    course_id = question_data.pop('course', None)
+                    course_id = question_data.get('course_id')  # Use get to avoid KeyError
+
+
                     if course_id:
                         try:
                             course = Course.objects.get(id=course_id)

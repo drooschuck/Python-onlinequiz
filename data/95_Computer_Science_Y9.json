@@ -1,0 +1,42 @@
+[
+    {
+        "course_id": 9,
+        "question": "Which of the following is NOT a type of permanent storage device?",
+        "marks": 1,
+        "option1": "A) Hard Disk Drive (HDD)",
+        "option2": "B) Solid State Drive (SSD)",
+        "option3": "C) USB Flash Drive",
+        "option4": "D) RAM",
+        "answer": "D) RAM"
+    },
+    {
+        "course_id": 9,
+        "question": "What does CPU stand for?",
+        "marks": 1,
+        "option1": "A) Central Processing Unit",
+        "option2": "B) Central Process Unit",
+        "option3": "C) Computer Personal Unit",
+        "option4": "D) Centralized Processing Unit",
+        "answer": "A) Central Processing Unit"
+    },
+    {
+        "course_id": 9,
+        "question": "Which of the following is a programming language?",
+        "marks": 1,
+        "option1": "A) HTML",
+        "option2": "B) CSS",
+        "option3": "C) Python",
+        "option4": "D) SQL",
+        "answer": "C) Python"
+    },
+    {
+        "course_id": 9,
+        "question": "What is the main function of the operating system?",
+        "marks": 1,
+        "option1": "A) To manage hardware and software resources",
+        "option2": "B) To provide internet access",
+        "option3": "C) To run applications",
+        "option4": "D) To store data",
+        "answer": "A) To manage hardware and software resources"
+    }
+]

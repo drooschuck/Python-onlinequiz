@@ -86,32 +86,61 @@ def start_exam_view(request, pk):
 @login_required(login_url='studentlogin')
 @user_passes_test(is_student)
 def calculate_marks_view(request):
-    if request.COOKIES.get('course_id') is not None:
+    try:
+        if request.COOKIES.get('course_id') is None:
+            print("Error: Course ID not found in cookies")
+            return HttpResponseRedirect('student-dashboard')
+
         course_id = request.COOKIES.get('course_id')
-        course = QMODEL.Course.objects.get(id=course_id)
+        try:
+            course = QMODEL.Course.objects.get(id=course_id)
+        except QMODEL.Course.DoesNotExist:
+            print(f"Error: Course with ID {course_id} not found")
+            return HttpResponseRedirect('student-dashboard')
 
         total_marks = 0
         questions = QMODEL.Question.objects.all().filter(course=course)
+        if not questions:
+            print(f"Warning: No questions found for course {course.course_name}")
+            
         for i in range(len(questions)):
-            selected_ans = request.POST.get(str(i + 1))  # Changed from cookies to POST
+            selected_ans = request.POST.get(str(i + 1))
+            if selected_ans is None:
+                print(f"Warning: No answer received for question {i + 1}")
+                continue
+                
             actual_answer = questions[i].answer
             
             # Debugging information
-            print(f"Question {i + 1}: Selected Answer = {selected_ans}, Actual Answer = {actual_answer}")
-
+            print(f"Question {i + 1}: Selected Answer = {selected_ans} ({type(selected_ans)}), Actual Answer = {actual_answer} ({type(actual_answer)})")
+            
+            # Compare answers exactly as stored in the database
+            print(f"Exact comparison: '{selected_ans}' vs '{actual_answer}'")
+            
             if selected_ans == actual_answer:
-                total_marks += questions[i].marks  # Simplified the addition
+                print(f"Correct answer! Adding {questions[i].marks} marks")
+                total_marks += questions[i].marks
+            else:
+                print(f"Incorrect answer. No marks added. Expected: '{actual_answer}', Got: '{selected_ans}'")
 
         student = models.Student.objects.get(user_id=request.user.id)
         result = QMODEL.Result()
         result.marks = total_marks
         result.exam = course
         result.student = student
-        result.save()
-
-        print(f"Total Marks Recorded: {total_marks}")  # Debugging total marks
+        
+        try:
+            result.save()
+            print(f"Success: Total Marks Recorded: {total_marks} for student {student.user.username}")
+        except Exception as e:
+            print(f"Error saving result: {str(e)}")
+            return HttpResponseRedirect('student-dashboard')
 
         return HttpResponseRedirect('view-result')
+        
+    except Exception as e:
+        print(f"Unexpected error in calculate_marks_view: {str(e)}")
+        return HttpResponseRedirect('student-dashboard')
 
 
 @login_required(login_url='studentlogin')

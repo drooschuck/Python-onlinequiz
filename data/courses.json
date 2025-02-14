@@ -1,37 +1,145 @@
 [
     {
-        "course": 1,
-        "course_name": "Mathematics",
+        "id": 1,
+        "course_name": "Mathematics Y9",
         "question_number": 10,
         "total_marks": 100
     },
     {
-        "course": 2,
-        "course_name": "Science",
+        "id": 2,
+        "course_name": "Mathematics Y7",
         "question_number": 10,
         "total_marks": 100
     },
     {
-        "course": 3,
-        "course_name": "History",
+        "id": 3,
+        "course_name": "Science Y9",
         "question_number": 10,
         "total_marks": 100
     },
     {
-        "course": 4,
-        "course_name": "Geography",
+        "id": 4,
+        "course_name": "Science Y7",
         "question_number": 10,
         "total_marks": 100
     },
     {
-        "course": 6,
-        "course_name": "Computer Science",
+        "id": 5,
+        "course_name": "History Y9",
         "question_number": 10,
         "total_marks": 100
     },
     {
-        "course": 7,
-        "course_name": "General Knowledge",
+        "id": 6,
+        "course_name": "History Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 7,
+        "course_name": "Geography Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 8,
+        "course_name": "Geography Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 9,
+        "course_name": "Computer Science Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 10,
+        "course_name": "Computer Science Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 11,
+        "course_name": "Design and technology Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 12,
+        "course_name": "Design and technology Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 13,
+        "course_name": "English Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 14,
+        "course_name": "English Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 15,
+        "course_name": "Art and design Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 16,
+        "course_name": "Art and design Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 17,
+        "course_name": "Citizenship Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 18,
+        "course_name": "Citizenship Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 19,
+        "course_name": "Languages Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 20,
+        "course_name": "Languages Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 21,
+        "course_name": "Music Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 22,
+        "course_name": "Music Y7",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 23,
+        "course_name": "Physical education Y9",
+        "question_number": 10,
+        "total_marks": 100
+    },
+    {
+        "id": 24,
+        "course_name": "Physical education Y7",
         "question_number": 10,
         "total_marks": 100
     }
